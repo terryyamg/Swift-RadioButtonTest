@@ -14,6 +14,8 @@
 		CEE69E681CAE7C3F00B1C81E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE69E661CAE7C3F00B1C81E /* LaunchScreen.storyboard */; };
 		CEE69E731CAE7C3F00B1C81E /* RadioButtonTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE69E721CAE7C3F00B1C81E /* RadioButtonTestTests.swift */; };
 		CEE69E7E1CAE7C3F00B1C81E /* RadioButtonTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE69E7D1CAE7C3F00B1C81E /* RadioButtonTestUITests.swift */; };
+		CEE69E8C1CAE7CAD00B1C81E /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE69E8B1CAE7CAD00B1C81E /* SSRadioButton.swift */; };
+		CEE69E8E1CAE7CC100B1C81E /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE69E8D1CAE7CC100B1C81E /* SSRadioButtonsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CEE69E791CAE7C3F00B1C81E /* RadioButtonTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioButtonTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE69E7D1CAE7C3F00B1C81E /* RadioButtonTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonTestUITests.swift; sourceTree = "<group>"; };
 		CEE69E7F1CAE7C3F00B1C81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE69E8B1CAE7CAD00B1C81E /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		CEE69E8D1CAE7CC100B1C81E /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				CEE69E5D1CAE7C3F00B1C81E /* AppDelegate.swift */,
+				CEE69E8B1CAE7CAD00B1C81E /* SSRadioButton.swift */,
+				CEE69E8D1CAE7CC100B1C81E /* SSRadioButtonsController.swift */,
 				CEE69E5F1CAE7C3F00B1C81E /* ViewController.swift */,
 				CEE69E611CAE7C3F00B1C81E /* Main.storyboard */,
 				CEE69E641CAE7C3F00B1C81E /* Assets.xcassets */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE69E601CAE7C3F00B1C81E /* ViewController.swift in Sources */,
+				CEE69E8E1CAE7CC100B1C81E /* SSRadioButtonsController.swift in Sources */,
 				CEE69E5E1CAE7C3F00B1C81E /* AppDelegate.swift in Sources */,
+				CEE69E8C1CAE7CAD00B1C81E /* SSRadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

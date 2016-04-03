@@ -8,16 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SSRadioButtonControllerDelegate  {
 
+    @IBOutlet weak var bt1: UIButton!
+    @IBOutlet weak var bt2: UIButton!
+    @IBOutlet weak var bt3: UIButton!
+    
+    var radioButtonController: SSRadioButtonsController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        radioButtonController = SSRadioButtonsController(buttons: bt1, bt2, bt3)
+        radioButtonController!.delegate = self
+        radioButtonController!.shouldLetDeSelect = true
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func didSelectButton(aButton: UIButton?) {
+        let currentButton = radioButtonController!.selectedButton()!
+        print("點選\(currentButton.currentTitle!)")
     }
 
 
